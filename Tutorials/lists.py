@@ -10,6 +10,7 @@
 
 numbers = [10, 20, 30, 40, 50]
 numbers.append(numbers[len(numbers)-1]+10)
+numbers.remove(numbers[2])
 # print(numbers)
 
 for number in numbers:
